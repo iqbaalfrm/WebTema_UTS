@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BalaTani - Pertanian Masa Kini</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo a {
+            color: white;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .menu li {
+            margin-right: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* General Section Styles */
+        section {
+            margin-bottom: 40px;
+            overflow: hidden; /* Clear the floats */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .kolom {
+            flex: 1;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #4CAF50;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* Form Styles */
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .input-field {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #4CAF50;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #4CAF50;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">BalaTani</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#Tentang">Tentang</a></li>
+                    <li><a href="#layanan-kami">Layanan</a></li>
+                    <li><a href="#kontak">Hubungi Kami</a></li>
+                    <li><a href="#">Masuk</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <section id="beranda" style="display: flex; justify-content: center; align-items: center;">
+            <img src="https://media.istockphoto.com/id/1303644694/id/vektor/petani-bekerja-di-kebun.jpg?s=1024x1024&w=is&k=20&c=Rz0vyWniYrXaOXpuzQ3UzaxPo2lEHzaQ7kL3n40fE2E=" alt="hero section" style="height: 400px; width: 400px; padding: 20px;">
+            <div class="kolom">
+                <h2>BalaTani</h2>
+                <p>Selamat datang di situs web kami yang bertujuan untuk mengembangkan pertanian modern dan berkelanjutan.</p>
+                <p><a href="#">Selengkapnya</a></p>
+            </div>
+        </section>
+        <section id="Tentang">
+            <div class="kolom">
+                <h2>Tentang Kami</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra diam. Leo a diam sollicitudin tempor id eu. Nulla aliquet porttitor lacus luctus. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Quis vel eros donec ac odio. Venenatis tellus in metus vulputate eu scelerisque.</p>
+                <p><a href="#">Selengkapnya</a></p>
+            </div>
+            <img src="https://media.istockphoto.com/id/1424858329/id/vektor/petani-usaha-pertanian-berurusan-dengan-investor-atau-pengusaha-kesepakatan-antar-mitra.jpg?s=1024x1024&w=is&k=20&c=RvGNRXtCZTqwCx5G8U5p6TG_hp9bRHF7vTXgXd-J4Zo=" alt="gambar tentang" style="height: 400px; width: 400px; padding: 20px; margin-left: 100px;">
+        </section>
+        <!-- Tabel yang ditambahkan -->
+        <section>
+            <div style="float: left; width: 50%;">
+                <h2>Data Produk Pertanian</h2>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <caption>Data Produk Pertanian</caption>
+                    <thead>
+                        <tr>
+                            <th>Nama Produk</th>
+                            <th>Harga</th>
+                            <th>Stok</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bawang Merah</td>
+                            <td>26.000</td>
+                            <td>100</td>
+                        </tr>
+                        <tr>
+                            <td>Kacang Panjang</td>
+                            <td>5.000</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Beras</td>
+                            <td>15.000</td>
+                            <td>200</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- Akhir tabel -->
+        <section id="layanan-kami" style="display: flex; justify-content: center; align-items: center;">
+            <img src="https://media.istockphoto.com/id/1277085047/id/vektor/pria-afrika-di-coverall.jpg?s=1024x1024&w=is&k=20&c=Kp_7mttTbKD79PFJOB9zHaOoSw6R09Y5LlrqgTOOe94=" alt="gambar layanan" style="height: 400px; width: 400px; padding: 20px;">
+            <div class="kolom">
+                <h2>Layanan Kami</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra diam. Leo a diam sollicitudin tempor id eu. Nulla aliquet porttitor lacus luctus. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Condimentum mattis pellentesque id nibh tortor id aliquet lectus proin. Quis vel eros donec ac odio. Venenatis tellus in metus vulputate eu scelerisque.</p>
+                <p><a href="#">Selengkapnya</a></p>
+            </div>
+        </section>
+        <section id="kontak">
+            <article>
+                <h1>Hubungi Kami</h1>
+                <h3>Hubungi Kami Untuk Info Lebih Lanjut</h3>
+            </article>
+            <aside>
+                <!-- Formulir yang ditambahkan -->
+                <form id="form-kontak" action="#" method="post">
+                    <div class="input-field">
+                        <label for="name">Nama</label>
+                        <input type="text" name="name" id="name" placeholder="Nama Anda">
+                    </div>
+                    <div class="input-field">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email Anda">
+                    </div>
+                    <div class="input-field">
+                        <label for="message">Pesan</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Tulis Pesan Anda..."></textarea>
+                    </div>
+                    <button type="submit">Kirim</button>
+                </form>
+                <!-- Akhir formulir -->
+            </aside>
+        </section>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <p>&copy; 2023 BalaTani - Hak Cipta Dilindungi</p>
+        </div>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Function to show the welcome popup
+            function showWelcomePopup() {
+                alert("Selamat datang di web Bala Tani!");
+            }
+
+            // Call the function after the DOM has loaded
+            showWelcomePopup();
+        });
+    </script>
+</body>
+</html>
